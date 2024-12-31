@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     $('menu-hamburguer').click(function() {
         $('nav').slideToggle();
-    })
+    });
 
     $('#telefone').mask('(00) 00000-0000');
 
